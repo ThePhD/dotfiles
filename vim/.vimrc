@@ -14,13 +14,19 @@ Plug 'altercation/vim-colors-solarized'
 Plug 'guns/xterm-color-table.vim'
 Plug 'tpope/vim-sensible'
 Plug 'Valloric/YouCompleteMe', { 'do': './install.py --clang-completer' }
+Plug 'Chiel92/vim-autoformat'
+Plug 'scrooloose/nerdtree'
+Plug 'Xuyuanp/nerdtree-git-plugin'
 call plug#end()
 
 "" Save on Escape
 ":inoremap <Esc> <Esc>:w<CR>
 
+" Open NerdTree
+map <C-S-k> :NERDTreeToggle<CR>
+
 " Swap Files
-:set directory=/home/test/.cache/vim/swapfiles/
+:set directory=/home/test/.cache/vim/swapfiles//
 
 " Width of Tabs
 set tabstop=5
@@ -28,8 +34,11 @@ set shiftwidth=5
 set softtabstop=5
 set noexpandtab
 
+" Wrapping on certain lines
+set whichwrap+=<,>,h,l,[,]
+
 " Colorscheme
-colorscheme beauty256
+colorscheme pride
 
 " Enable Filetype Plugin
 filetype plugin indent on
@@ -150,7 +159,7 @@ endif
 
 " Airline Plugin Options
 set laststatus=2
-let g:airline_theme="base16"
+let g:airline_theme="wombat"
 let g:airline_powerline_fonts = 1
 let g:airline_mode_map = {
       \ '__' : '-',
