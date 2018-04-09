@@ -24,6 +24,10 @@ call plug#end()
 
 " Open NerdTree
 map <C-S-k> :NERDTreeToggle<CR>
+" NerdTree settings
+let NERDTreeMinimalUI = 1
+let NERDTreeDirArrows = 1
+let NERDTreeAutoDeleteBuffer = 1
 
 " Swap Files
 :set directory=/home/test/.cache/vim/swapfiles//
