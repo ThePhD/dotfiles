@@ -13,14 +13,14 @@ export CLANG_SOURCE_DIR=~/embed/implementation/vendor/clang
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="agnoster"
+#ZSH_THEME="agnoster"
 # Powerlevel 9K work
-#ZSH_THEME="powerlevel9k/powerlevel9k"
-#POWERLEVEL9K_COMMAND_EXECUTION_TIME_THRESHOLD=0.5
-#POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(context dir rbenv vcs)
-#POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status command_execution_time root_indicator background_jobs history time)
+ZSH_THEME="powerlevel9k/powerlevel9k"
+POWERLEVEL9K_COMMAND_EXECUTION_TIME_THRESHOLD=0.5
+POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(context dir)
+POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status command_execution_time root_indicator background_jobs history time)
 #POWERLEVEL9K_MODE='nerdfont-complete'
-#POWERLEVEL9K_PROMPT_ON_NEWLINE=true
+POWERLEVEL9K_PROMPT_ON_NEWLINE=true
 
 # Set list of themes to load
 # Setting this variable when ZSH_THEME=random
