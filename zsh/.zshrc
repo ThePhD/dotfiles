@@ -2,10 +2,6 @@ export TERM="xterm-256color"
 
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
-export GCC_INSTALL_DIR=~/builds/embed/implementation/vendor/gcc/install
-export GCC_SOURCE_DIR=~/embed/implementation/vendor/gcc
-export CLANG_INSTALL_DIR=~/builds/embed/implementation/vendor/clang/install
-export CLANG_SOURCE_DIR=~/embed/implementation/vendor/clang
 
 # Path to your oh-my-zsh installation.
   export ZSH=${HOME}/.oh-my-zsh
@@ -80,6 +76,8 @@ source $ZSH/oh-my-zsh.sh
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"
+
+export PATH=$HOME/.local/bin:$PATH
 
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
