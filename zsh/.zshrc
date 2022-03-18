@@ -79,6 +79,8 @@ source $ZSH/oh-my-zsh.sh
 
 export PATH=$HOME/.local/bin:$PATH
 export PATH=$PATH:$HOME/llvm-project/install/bin
+export PATH=$PATH:$HOME/tendra/bin
+export PATH=$PATH:$HOME/tinycc/install/bin
 
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
