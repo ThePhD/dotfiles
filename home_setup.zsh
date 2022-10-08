@@ -14,6 +14,6 @@ fi
 ln -s $HOME/Cross/dotfiles/zsh/.p10k.zsh $HOME/.p10k.zsh
 if [ -f $HOME/.p10k.zsh ]
 then
-	mv $HOME/Cross/dotfiles/zsh/themes/powerlevel10k $HOME/Cross/dotfiles/zsh/themes/powerlevel10k.old
+	mv $HOME/.oh-my-zsh/themes/powerlevel10k $HOME/.oh-my-zsh/themes/powerlevel10k.old
 fi
 ln -s $HOME/Cross/dotfiles/zsh/themes/powerlevel10k $HOME/.oh-my-zsh/themes/powerlevel10k
