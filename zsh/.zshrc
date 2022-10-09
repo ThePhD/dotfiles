@@ -81,15 +81,16 @@ export PATH=$HOME/.local/bin:$PATH
 export PATH=$PATH:$HOME/llvm-project/install/bin
 export PATH=$PATH:$HOME/tendra/bin
 export PATH=$PATH:$HOME/tinycc/install/bin
+export PATH=$PATH:$HOME/.cargo/bin
 
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
 
 # Preferred editor for local and remote sessions
 if [[ -n $SSH_CONNECTION ]]; then
-   export EDITOR='vim'
+   export EDITOR='nano'
 else
-   export EDITOR='vim'
+   export EDITOR='nano'
 fi
 
 # Compilation flags
@@ -104,8 +105,8 @@ fi
 # For a full list of active aliases, run `alias`.
 #
 # Example aliases
-# alias zshconfig="mate ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
+# alias zshconfig="code ~/.zshrc"
+# alias ohmyzsh="code ~/.oh-my-zsh"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
